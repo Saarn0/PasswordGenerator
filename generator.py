@@ -8,6 +8,6 @@ def generate_password():
     password = ''.join(random.choice(alphabet) for i in range(LENGTH))
     return password
         
-password = generate_password()        
+password = generate_password()
 print(password)
     
